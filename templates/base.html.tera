@@ -6,12 +6,12 @@
     <title>{% if title %}{{ title }} - {% endif %}Nick Hesemans</title>
     <link rel="stylesheet" href="/public/css/main.css">
 </head>
-<body class="latte bg-ctp-base">
+<body class="latte bg-ctp-base text-ctp-text">
 <header>
     {% include "partials/navbar" %}
 </header>
 
-<main class="container">
+<main class="container mx-auto">
     {% block content %}{% endblock %}
 </main>
 </body>
