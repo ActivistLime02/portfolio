@@ -4,9 +4,10 @@ use rocket_dyn_templates::{context, Template};
 
 #[get("/")]
 fn index() -> Template {
-    Template::render("index", context!{
+    let context = context!{
         title: "Home"
-    })
+    };
+    Template::render("index", &context)
 }
 
 #[launch]

@@ -6,6 +6,10 @@
     <title>{% if title %}{{ title }} - {% endif %}Nick Hesemans</title>
 </head>
 <body>
+<header>
+    {% include "partials/navbar" %}
+</header>
+
 <main class="container">
     {% block content %}{% endblock %}
 </main>
