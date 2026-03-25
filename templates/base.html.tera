@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title %}{{ title }} - {% endif %}Nick Hesemans</title>
-    <link rel="stylesheet" href="/public/css/tailwindcss.css">
+    <link rel="stylesheet" href="/public/css/main.css">
 </head>
 <body class="latte bg-ctp-base">
 <header>

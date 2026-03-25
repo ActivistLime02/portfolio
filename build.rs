@@ -5,7 +5,7 @@ fn main() {
     let status = Command::new("npx")
         .arg("@tailwindcss/cli")
         .arg("-i")
-        .arg("public/css/style.css")
+        .arg("public/css/input.css")
         .arg("-o")
         .arg("public/css/tailwindcss.css")
         .status()
