@@ -6,7 +6,7 @@
     <title>{% if title %}{{ title }} - {% endif %}Nick Hesemans</title>
     <link rel="stylesheet" href="/public/css/tailwindcss.css">
 </head>
-<body>
+<body class="latte bg-ctp-base">
 <header>
     {% include "partials/navbar" %}
 </header>
