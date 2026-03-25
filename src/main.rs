@@ -6,7 +6,17 @@ use rocket_dyn_templates::{context, Template};
 #[get("/")]
 fn index() -> Template {
     let context = context!{
-        title: "Home"
+        title: "Home",
+        navbar_active_state: "index"
+    };
+    Template::render("index", &context)
+}
+
+#[get("/aboutme")]
+fn aboutme() -> Template {
+    let context = context! {
+        title: "About me",
+        navbar_active_state: "aboutme"
     };
     Template::render("index", &context)
 }
@@ -14,7 +24,10 @@ fn index() -> Template {
 #[launch]
 fn rocket() -> _ {
     rocket::build()
-        .mount("/", routes![index])
+        .mount("/", routes![
+            index,
+            aboutme
+        ])
         .mount("/public", FileServer::from(relative!("./public")))
         .attach(Template::fairing())
 }

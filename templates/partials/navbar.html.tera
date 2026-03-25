@@ -1,6 +1,10 @@
-
-<nav>
-    <ul>
-        <li>Home</li>
+<nav class="bg-ctp-surface0">
+    <ul class="flex justify-center">
+        <li class=""><a class="inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
+            {% if navbar_active_state == "index" %} bg-ctp-surface1 {% endif %}"
+                        href="/">Hoofdpagina</a></li>
+        <li class=""><a class="inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
+            {% if navbar_active_state == "aboutme" %} bg-ctp-surface1 {% endif %}"
+                        href="/aboutme">Over mij</a></li>
     </ul>
 </nav>
