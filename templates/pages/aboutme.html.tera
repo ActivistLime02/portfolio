@@ -1,5 +1,6 @@
 {% extends "base" %}
 {% import "partials/heading" as heading_macro %}
+{% import "partials/content" as content_macro %}
 
 {% block content %}
 <article class="@container">
@@ -7,50 +8,50 @@
     <section>
         {{ heading_macro::heading2(content="Introductie") }}
         <div>
-            <p>
+            {{ content_macro::paragraph(content="
                 Mijn naam is Nick Hesemans, momenteel ben ik een student aan de hogeschool Thomas More in Geel.
                 Ik studeer Toegepaste Informatica nadat ik een graduaat heb behaald in Systeem- en Netwerkbeheer. Ik ben geboren in China en woon in België.
                 Mijn moedertaal is Nederlands, ik vind van mezelf dat ik goed Engels kan en spreek conversatie niveau Chinees. Voor Chinees kan ik maar beperkt lezen.
-            </p>
+            ") }}
 <!--            <img src="" alt="">-->
         </div>
     </section>
     <section>
         {{ heading_macro::heading2(content="Hobby's of interesses") }}
         {{ heading_macro::heading3(content="Boeken lezen") }}
-        <p class="my-1">
+        {{ content_macro::paragraph(content="
             Lezen doe ik het liefst via e-boeken, dit is het handigste formaat om mee te nemen. Ik lees graag in een donkere kamer wanneer het stil is.
             Op deze manier is het aangenaam, want dan kan ik me volledig laten opnemen daar de boeken.
             Er zijn geen externe stimulaties die mij afleiden, alleen mijn boek en mijn verbeelding is aanwezig op dat moment.
             De boeken dat ik graag lees zijn light novels. Dit zijn boeken die geschreven zijn voor jongeren en jongvolwassenen uit Japan.
             Ik lees voornamelijk fantasy en science fiction verhalen. Het voordeel van light novels voor mij is er meerdere volumes zijn.
             Als het verhaal een wereld heeft dat mij interesseert, dan weet ik dat er nog meer boeken zijn die het verhaal verder zetten.
-        </p>
-        <p class="my-1">
+        ") }}
+        {{ content_macro::paragraph(content="
             Middelbare school heeft voor mij een slechte reputatie gegeven aan boeken. Jaarlijks moest ik boekverslagen schrijven over boeken waar ik geen interesse in heb.
             Dus in mijn vrije tijd heb ik weinig boeken gelezen. Totdat ik anime begon te kijken. Anime heeft het nadeel dat de meeste series alleen één seizoen krijgen.
             Gelukkig zijn ze meestal verfilmingen van light novels of manga.
             Dus als het verhaal geweldig is, maar geen tweede seizoen van bestaat, zal ik dus de boeken oppakken om het vervolg van het verhaal te lezen.
-        </p>
-        <p class="my-1">
+        ") }}
+        {{ content_macro::paragraph(content="
             Conclusie is dus, niet alle boeken zijn saai.
-        </p>
+        ") }}
 
         {{ heading_macro::heading3(content="Homelab") }}
-        <p class="my-1">
+        {{ content_macro::paragraph(content="
             De corona lockdown periode kwam overeen met het vijfde middelbaar. Toen kreeg ik opeens veel vrije tijd.
             Het is net ook de periode dat ik een beetje begon te spelen met Linux.
             Dus heb ik in de vrije tijd mijn desktop systeem overgezet naar Linux. Tot de dag van vandaag gebruik ik Linux voor de taken die hierop kan worden uitgevoerd.
             Tijdens het leren heb ik onder andere gespeeld met DNS, Docker, VM's en ZFS. Door deze ervaring heb ik beslist om een studie te doen rond systeembeheer.
             Daarom heb ik eerst een graduaat gedaan in Systeem- en Netwerkbeheer.
-        </p>
-        <p class="my-1">
+        ") }}
+        {{ content_macro::paragraph(content="
             Tegenwoordig speel ik minder rond met het homelab thuis. Mijn nas server is geconfigureerd zoals ik hem graag wil.
             Mijn hypervisor is geconfigureerd zoals ik hem wil evenals de Docker containers die draaien in de VM's.
-        </p>
+        ") }}
 
         {{ heading_macro::heading3(content="Programmeren") }}
-        <p class="my-1">
+        {{ content_macro::paragraph(content="
             Tijdens mijn studies van systeem- en netwerkbeheer waren er een aantal programmeervakken die toch wel mijn interesse trok.
             Hier heb ik leren scripten met Python, query's schrijven in SQL en simpele websites maken met bootstrap.
             In mijn vrije tijd schreef ik een Python script dat mijn afbeelding bewerkt om de juiste aspect ratio te krijgen voor te dienen als achtergrond.
@@ -60,10 +61,10 @@
             Mijn ervaring tot nu toe is relatief aangenaam, op bepaalde plaatsen op het internet heb ik gelezen dat Rust een gekke taal is met zeer moeilijke syntax.
             Wat ik momenteel moet wennen is dat de objectgeoriënteerde gedeelde net iets anders werkt dan dat ik gewoon ben bij Java en PHP.
             Mijn doel is om Rust ver genoeg onder de knie te krijgen om mijn Python script te herschrijven naar Rust.
-        </p>
-        <p>
+        ") }}
+        {{ content_macro::paragraph(content="
             Deze website is geschreven met Rocket, die geeft templates terug gemaakt in Tera.
-        </p>
+        ") }}
     </section>
 </article>
 {% endblock content %}

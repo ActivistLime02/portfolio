@@ -1,0 +1,5 @@
+{% macro paragraph(content) %}
+<p class="my-1">
+    {{ content }}
+</p>
+{% endmacro paragraph %}
