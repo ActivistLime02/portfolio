@@ -3,3 +3,7 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+p {
+    text-align: justify;
+}

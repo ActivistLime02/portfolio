@@ -1,0 +1,17 @@
+{% macro heading1(content) %}
+<h1 class="text-ctp-rosewater text-4xl mt-4 mb-2">
+    {{ content }}
+</h1>
+{% endmacro heading1 %}
+
+{% macro heading2(content) %}
+<h2 class="text-ctp-rosewater text-3xl mt-4 mb-2">
+    {{ content }}
+</h2>
+{% endmacro heading2 %}
+
+{% macro heading3(content) %}
+<h3 class="text-ctp-rosewater text-2xl mt-4 mb-2">
+    {{ content }}
+</h3>
+{% endmacro heading3 %}
