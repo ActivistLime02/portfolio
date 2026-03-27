@@ -9,7 +9,7 @@ fn index() -> Template {
         title: "Home",
         navbar_active_state: "index"
     };
-    Template::render("index", &context)
+    Template::render("pages/index", &context)
 }
 
 #[get("/aboutme")]
@@ -18,7 +18,7 @@ fn aboutme() -> Template {
         title: "About me",
         navbar_active_state: "aboutme"
     };
-    Template::render("index", &context)
+    Template::render("pages/aboutme", &context)
 }
 
 #[launch]
