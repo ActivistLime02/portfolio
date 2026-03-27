@@ -1,10 +1,32 @@
-<nav class="bg-ctp-surface0">
-    <ul class="flex justify-center">
-        <li class=""><a class="inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
+<div>
+    <div>
+
+    </div>
+    <nav class="bg-ctp-surface0"
+         x-data="{ open: false }"
+    >
+        {# Note to myself: `sm:!flex` ensures that display if not set to none due to alpine. TLDR, don't remove `sm:!flex`! #}
+        <ul x-show="open" class="flex flex-col max-h-[50vh] overflow-auto
+    {# 'reset' to large screen #}
+    sm:!flex sm:flex-row sm:max-h-none sm:overflow-visible">
+            <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
             {% if navbar_active_state == "index" %} bg-ctp-surface1 {% endif %}"
-                        href="/">Hoofdpagina</a></li>
-        <li class=""><a class="inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
+                href="/">Hoofdpagina</a></li>
+            <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
             {% if navbar_active_state == "aboutme" %} bg-ctp-surface1 {% endif %}"
-                        href="/aboutme">Over mij</a></li>
-    </ul>
-</nav>
+                href="/aboutme">Over mij</a></li>
+        </ul>
+        <div class="flex justify-end sm:hidden">
+            <!--        Maak dit eigen kleur op hover-->
+            <button class="p-4 cursor-pointer"
+                    @click="open = !open">
+                <i class="fa-solid fa-bars"
+                   x-show="!open"
+                ></i>
+                <i class="fa-solid fa-chevron-up"
+                   x-show="open"
+                ></i>
+            </button>
+        </div>
+    </nav>
+</div>
