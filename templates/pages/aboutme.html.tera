@@ -46,7 +46,7 @@
         </p>
         <p class="my-1">
             Tegenwoordig speel ik minder rond met het homelab thuis. Mijn nas server is geconfigureerd zoals ik hem graag wil.
-            Mijn hypervisor is geconfigureerd zoals ik hem wil en de docker containers die draaien in de VM's.
+            Mijn hypervisor is geconfigureerd zoals ik hem wil evenals de Docker containers die draaien in de VM's.
         </p>
 
         {{ heading_macro::heading3(content="Programmeren") }}
@@ -62,7 +62,7 @@
             Mijn doel is om Rust ver genoeg onder de knie te krijgen om mijn Python script te herschrijven naar Rust.
         </p>
         <p>
-            Deze website is geschreven met Rocket, die geeft een templates terug gemaakt in Tera.
+            Deze website is geschreven met Rocket, die geeft templates terug gemaakt in Tera.
         </p>
     </section>
 </article>
