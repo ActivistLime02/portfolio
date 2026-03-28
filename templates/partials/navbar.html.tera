@@ -6,7 +6,7 @@
          x-data="{ open: false }"
     >
         <div class="flex justify-between">
-            <a href="/"><img class="h-[56px] p-2" src="/public/logo.svg" alt="Logo met de letters NH"></a>
+            <a href="/"><img class="h-[56px] p-2 px-4" src="/public/logo.svg" alt="Logo met de letters NH"></a>
             <button class="p-4 cursor-pointer sm:hidden"
                     @click="open = !open">
                 <i class="fa-solid fa-bars"
