@@ -3,3 +3,12 @@
     {{ content }}
 </p>
 {% endmacro paragraph %}
+
+{% macro navigation_button(path, content) %}
+<a href="{{ path }}"
+   class="px-2 py-1 rounded-full
+   bg-ctp-lavender text-ctp-base
+">
+    {{ content }}
+</a>
+{% endmacro navigation_button %}

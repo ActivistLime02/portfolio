@@ -1,5 +1,23 @@
 {% extends "base" %}
+{% import "partials/heading" as heading_macro %}
+{% import "partials/content" as content_macro %}
 
 {% block content %}
-<h1>Nick Hesemans</h1>
+<article>
+    <section>
+        {{ heading_macro::heading1(content="Welkom tot mijn portfolio!") }}
+        {{ content_macro::paragraph(content="
+        Mijn naam is Nick Hesemans, ik studeer een bachelor in Toegepaste Informatica.
+        Deze website zal mijn bewijs zijn van mijn groei binnen dit richting.
+        ") }}
+    </section>
+    <section>
+        {{ heading_macro::heading2(content="Kom meer te weten over mij!") }}
+        {{ content_macro::paragraph(content="
+        Ik licht een beetje meer toe wie ik ben en wat ik graag doe.
+        ") }}
+        {{ content_macro::navigation_button(path="/aboutme", content="Over mij") }}
+    </section>
+
+</article>
 {% endblock content %}
