@@ -60,8 +60,8 @@
             Tijdens mijn studies van systeem- en netwerkbeheer waren er een aantal programmeervakken die toch wel mijn interesse trok.
             Hier heb ik leren scripten met Python, query's schrijven in SQL en simpele websites maken met bootstrap.
             In mijn vrije tijd schreef ik een Python script dat mijn afbeelding bewerkt om de juiste aspect ratio te krijgen voor te dienen als achtergrond.
-            Hier had ik de smaak te pakken.
-            Ik besliste toen om mijn graduaat studie of te maken, want daar leerde ik nuttige dingen. Zeker het netwerk verhaal van CCNA.
+            Door deze project had ik de smaak te pakken van programmeren.
+            Ik besliste toen om mijn graduaat studie of te maken, want daar leerde ik nuttige dingen zoals het netwerk verhaal van CCNA.
             Momenteel probeer ik het programmeertaal Rust te leren.
             Mijn ervaring tot nu toe is relatief aangenaam, op bepaalde plaatsen op het internet heb ik gelezen dat Rust een gekke taal is met zeer moeilijke syntax.
             Wat ik momenteel moet wennen is dat de objectgeoriënteerde gedeelde net iets anders werkt dan dat ik gewoon ben bij Java en PHP.
@@ -74,9 +74,9 @@
     <section>
         {{ heading_macro::heading2(content="Professionele ambities") }}
         {{ content_macro::paragraph(content="
-            Van verschillende rollen dat ik heb gehad in projecten op school, is backend het leukste code om te schrijven.
-            Bij het schrijven van een backend weet je wat een API zal ontvangen en wat die zal teruggeven. Ik moet zorgen dat ik mijn code overeenkomt met de verwachte input en output.
-            Zoals je waarschijnlijk hebt gezien om deze website, is design niet mijn sterkste punt.
+            Van verschillende rollen dat ik heb gehad in projecten op school, is backend het leukste om te coderen.
+            Bij het schrijven van een backend weet je wat een API zal ontvangen en wat die zal teruggeven. Ik moet zorgen dat mijn code overeenkomt met de verwachte input en output.
+            Zoals je waarschijnlijk hebt gezien op deze website, is design niet mijn sterkste punt.
         ") }}
         {{ content_macro::paragraph(content="
             Wat ik ook tracht te doen is om nieuwe kennis op te doen. Momenteel is dat leren van Rust in mijn vrije tijd.
