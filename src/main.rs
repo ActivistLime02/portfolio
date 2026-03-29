@@ -38,6 +38,6 @@ fn rocket() -> _ {
             aboutme,
             cv
         ])
-        .mount("/public", FileServer::from(relative!("./public")))
+        .mount("/public", FileServer::from(relative!("public")))
         .attach(Template::fairing())
 }

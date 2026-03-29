@@ -1,0 +1,9 @@
+---
+services:
+  rocket:
+    container_name: portfolio-site
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
