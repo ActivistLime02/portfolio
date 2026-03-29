@@ -1,0 +1,104 @@
+{% extends "base" %}
+{% import "partials/heading" as heading_macro %}
+{% import "partials/content" as content_macro %}
+
+{% block content %}
+<article class="@container">
+    <div class="@2xl:flex @2xl:gap-4 @2xl:flex-row-reverse">
+        <section>
+            {{ heading_macro::heading1(content="Nick Hesemans") }}
+            {{ content_macro::paragraph(content="
+            Ik ben een student bij Thomas More en ik studeer een bachelor in Toegepaste Informatica. Bij voorkeur werk ik graag met Linux op mijn computers.
+            Voor mij is het belangrijk om programma's te gebruiken met vim motions. Daarom heb ik voorkeur voor Neovim als mijn IDE.
+            ") }}
+
+            {{ heading_macro::heading2(content="Opleiding") }}
+            {{ heading_macro::heading3(content="
+            Bachelor Toegepaste Informatica | 2024-2027 | Thomas More Geel
+            ") }}
+            {{ content_macro::paragraph(content="
+            Voor een project heb ik samen met een team een web applicatie gebouwd met de TALL stack (Tailwind CSS, Alpine.js, Laravel en Livewire).
+            In combinatie met Agile werken hebben we dit volbracht in sprints binnen een semester.
+            ") }}
+            {{ heading_macro::heading3(content="
+            Graduaat Systeem- en Netwerkbeheer | 2022-2024 | Thomas More Geel
+            ") }}
+            {{ content_macro::paragraph(content="
+            Ik heb een basis gekregen in het beheren van Windows en Linux systemen. Het bouwen van een bedrijfsnetwerk is ook een vaardigheid dat ik heb geleerd.
+            Tijdens werkplekleren heb ik gewerkt met Chef cookbooks en Linux servers en hypervisors onderhouden.
+            ") }}
+
+            {{ heading_macro::heading2(content="Ervaring") }}
+            {{ heading_macro::heading3(content="
+            Netwerkbeheer | A&XL | 2026
+            ") }}
+            {{ content_macro::paragraph(content="
+            Bij A&XL (onderneming van mijn ouders) ben ik verantwoordelijk voor het IT-netwerk van een warenhuis.
+            Mijn taken zijn onder andere een server rack opzetten voor netwerkapparatuur, kabels patchen en verbinden met de routers en switchen.
+            Scheiden van netwerk apparaten door middel van VLAN's. Camera bewaking met een NVR. En het monitoren van het netwerk.
+            ") }}
+            {{ content_macro::paragraph(content="
+            Verder ben ik het contactpunt voor IT-gerelateerde vragen binnen het bedrijf.
+            ") }}
+            {{ heading_macro::heading3(content="
+            Werkplekleren systeembeheerder | Level27 | 2024
+            ") }}
+            {{ content_macro::paragraph(content="
+            Bij Level27 heb ik geholpen met het bouwen van een klein datacenter.
+            Dat wil zeggen elektriciteitkabels aanleggen, server racks plaatsen, netwerkkabels afmeten en plaatsen, server en netwerkapparatuur monteren en als laatst de servers configureren.
+            In het operations team servers monitoren, problemen oplossen en de klanten ervan op de hoogte stellen. In het DevOps team bugs oplossen in Chef cookbooks.
+            ") }}
+            {{ heading_macro::heading3(content="
+            Projecten voor het werkveld | Thomas More Geel | 2023
+            ") }}
+            {{ content_macro::paragraph(content="
+            Voor het vak project voor het werkveld heb ik de opdracht gekregen om een klein netwerk te bouwen in een groep van vijf personen.
+            We werkten hier vijf dagen aan en hebben de kans gehad om alles wat we geleerd hebben te implementeren.
+            De taken was onder anderen routers en switches, Active Directory, DNS en DHCP configureren. Hiervan ook alles documenteren.
+            ") }}
+        </section>
+        <section class="@2xl:border-r-ctp-overlay0 @2xl:border-r-4 @2xl:p-2 @2xl:shrink-0 @2xl:w-1/3 @4xl:w-1/4">
+            <picture>
+                <source srcset="/public/images/portrait.jxl" type="image/jxl">
+                <source srcset="/public/images/portrait.webp" type="image/webp">
+                <img class="my-4" src="/public/images/portrait.jpg" alt="Portret van Nick Hesemans">
+            </picture>
+
+            {{ heading_macro::heading3(content="Praktische gegevens") }}
+            {{ content_macro::paragraph(content="
+                In bezit van rijbewijs B
+            ") }}
+
+            {{ heading_macro::heading3(content="Talen") }}
+            {{ content_macro::paragraph(content="
+                Nederlands: moedertaal
+            ") }}
+            {{ content_macro::paragraph(content="
+                Engels: vloeiend
+            ") }}
+            {{ content_macro::paragraph(content="
+                Chinees: alleen spreken
+            ") }}
+
+            {{ heading_macro::heading3(content="Programmeer talen") }}
+            {{ content_macro::paragraph(content="
+                Python: scripting, fastAPI, AI in jupyter notebooks
+            ") }}
+            <p class="my-1">
+                <span class="text-ctp-red">PHP</span>: web applicaties in TALL stack
+            </p>
+            <p class="my-1">
+                <span class="text-ctp-red">Java</span>: springboot API
+            </p>
+            {{ content_macro::paragraph(content="
+                C#: .NET Core met Entity Framework API
+            ") }}
+            <p class="my-1">
+                <span class="text-ctp-red">Rust</span>: Rocket API (mijn portfolio gebruikt dit)
+            </p>
+            <p class="italic border-l-2 pl-2 border-ctp-lavender">Talen in het <span class="text-ctp-red">rood</span> doe ik graag.</p>
+
+        </section>
+    </div>
+</article>
+{% endblock content %}

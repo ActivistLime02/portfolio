@@ -21,12 +21,22 @@ fn aboutme() -> Template {
     Template::render("pages/aboutme", &context)
 }
 
+#[get("/cv")]
+fn cv() -> Template {
+    let context = context! {
+        title: "CV",
+        navbar_active_state: "cv"
+    };
+    Template::render("pages/cv", &context)
+}
+
 #[launch]
 fn rocket() -> _ {
     rocket::build()
         .mount("/", routes![
             index,
-            aboutme
+            aboutme,
+            cv
         ])
         .mount("/public", FileServer::from(relative!("./public")))
         .attach(Template::fairing())

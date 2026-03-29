@@ -27,6 +27,9 @@
             <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
             {% if navbar_active_state == "aboutme" %} bg-ctp-surface1 {% endif %}"
                 href="/aboutme">Over mij</a></li>
+            <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
+            {% if navbar_active_state == "cv" %} bg-ctp-surface1 {% endif %}"
+                href="/cv">CV</a></li>
         </ul>
     </nav>
 </div>
