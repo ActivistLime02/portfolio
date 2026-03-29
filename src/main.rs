@@ -4,7 +4,7 @@ use rocket::fs::{relative, FileServer};
 use rocket_dyn_templates::{context, Template};
 
 #[get("/")]
-fn index() -> Template {
+async fn index() -> Template {
     let context = context!{
         title: "Hoofdpagina",
         navbar_active_state: "index"
@@ -13,7 +13,7 @@ fn index() -> Template {
 }
 
 #[get("/aboutme")]
-fn aboutme() -> Template {
+async fn aboutme() -> Template {
     let context = context! {
         title: "Over mij",
         navbar_active_state: "aboutme"
@@ -22,7 +22,7 @@ fn aboutme() -> Template {
 }
 
 #[get("/cv")]
-fn cv() -> Template {
+async fn cv() -> Template {
     let context = context! {
         title: "CV",
         navbar_active_state: "cv"
