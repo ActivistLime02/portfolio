@@ -57,7 +57,7 @@
             De taken was onder anderen routers en switches, Active Directory, DNS en DHCP configureren. Hiervan ook alles documenteren.
             ") }}
         </section>
-        <section class="@2xl:border-r-ctp-overlay0 @2xl:border-r-4 @2xl:p-2 @2xl:shrink-0 @2xl:w-1/3 @4xl:w-1/4">
+        <section class="@2xl:border-r-ctp-overlay0 @2xl:border-r-4 @2xl:pr-4 @2xl:shrink-0 @2xl:w-1/3 @4xl:w-1/4">
             <picture>
                 <source srcset="/public/images/portrait.jxl" type="image/jxl">
                 <source srcset="/public/images/portrait.webp" type="image/webp">

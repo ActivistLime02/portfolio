@@ -4,7 +4,7 @@
 
 {% block content %}
 <article>
-    <div class="md:relative mt-4">
+    <div class="md:relative">
         <picture>
             <source srcset="/public/images/cim.jxl" type="image/jxl">
             <source srcset="/public/images/cim.webp" type="image/webp">

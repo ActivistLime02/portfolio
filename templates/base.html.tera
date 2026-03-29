@@ -15,7 +15,7 @@
     {% include "partials/navbar" %}
 </header>
 
-<main class="container mx-auto px-4
+<main class="container mx-auto p-4
     grow {# Keep footer at bottom of the page #}
 ">
     {% block content %}{% endblock %}
