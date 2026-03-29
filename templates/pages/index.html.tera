@@ -14,7 +14,7 @@
     <section>
         {{ heading_macro::heading2(content="Kom meer te weten over mij!") }}
         {{ content_macro::paragraph(content="
-        Ik licht een beetje meer toe wie ik ben en wat ik graag doe.
+        Ik licht meer toe wie ik ben en wat ik graag doe.
         ") }}
         {{ content_macro::navigation_button(path="/aboutme", content="Over mij") }}
     </section>
