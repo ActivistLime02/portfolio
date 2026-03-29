@@ -6,7 +6,7 @@ use rocket_dyn_templates::{context, Template};
 #[get("/")]
 fn index() -> Template {
     let context = context!{
-        title: "Home",
+        title: "Hoofdpagina",
         navbar_active_state: "index"
     };
     Template::render("pages/index", &context)
@@ -15,7 +15,7 @@ fn index() -> Template {
 #[get("/aboutme")]
 fn aboutme() -> Template {
     let context = context! {
-        title: "About me",
+        title: "Over mij",
         navbar_active_state: "aboutme"
     };
     Template::render("pages/aboutme", &context)
