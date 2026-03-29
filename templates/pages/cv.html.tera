@@ -98,6 +98,13 @@
             </p>
             <p class="italic border-l-2 pl-2 border-ctp-lavender">Talen in het <span class="text-ctp-red">rood</span> doe ik graag.</p>
 
+            {{ heading_macro::heading3(content="Pdf-versie") }}
+            {{ content_macro::paragraph(content="
+                Mijn pdf-versie zal net wat anders uitzien door limitatie van de gratis versie van Canva.
+            ") }}
+            <div class="my-4">
+                {{ content_macro::navigation_button(path="/public/static/CV_Nick_Hesemans.pdf", content="Klik hier om mijn CV te downloaden", new_tab=true) }}
+            </div>
         </section>
     </div>
 </article>
