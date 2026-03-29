@@ -4,13 +4,20 @@
 
 {% block content %}
 <article>
-    <section>
-        {{ heading_macro::heading1(content="Welkom tot mijn portfolio!") }}
-        {{ content_macro::paragraph(content="
-        Mijn naam is Nick Hesemans, ik studeer een bachelor in Toegepaste Informatica.
-        Deze website zal mijn bewijs zijn van mijn groei binnen dit richting.
-        ") }}
-    </section>
+    <div class="md:relative mt-4">
+        <picture>
+            <source srcset="/public/images/cim.jxl" type="image/jxl">
+            <source srcset="/public/images/cim.webp" type="image/webp">
+            <img class="max-h-[50vh] min-w-full object-cover md:object-bottom" src="/public/images/cim.jpg" alt="A small river in the mountain in China">
+        </picture>
+        <section class="md:absolute md:bottom-0 md:left-0 md:bg-ctp-green-100 md:px-3 md:w-full">
+            {{ heading_macro::heading1(content="Welkom tot mijn portfolio!") }}
+            {{ content_macro::paragraph(content="
+            Mijn naam is Nick Hesemans, ik studeer een bachelor in Toegepaste Informatica.
+            Deze website zal mijn bewijs zijn van mijn groei binnen dit richting.
+            ") }}
+        </section>
+    </div>
     <section>
         {{ heading_macro::heading2(content="Kom meer te weten over mij!") }}
         {{ content_macro::paragraph(content="
