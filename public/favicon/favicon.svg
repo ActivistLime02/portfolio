@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(34.90473276762069,0,0,34.90473276762069,0,176.83974992853257)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 28.64941 18.516701" id="svg1" xmlns:svg="http://www.w3.org/2000/svg" width="28.64941" height="18.516701"><defs id="defs1"></defs><g id="layer1" transform="translate(-21.787116,-17.522154)">
+    <path d="m 21.787116,17.584165 h 3.423047 l 7.242969,15.192871 V 17.584165 h 2.666504 V 36.038853 H 31.696589 L 24.45362,20.845982 v 15.192871 h -2.666504 z m 16.755566,-0.06201 h 2.517676 v 7.09414 h 6.858496 v -7.09414 h 2.517676 v 18.516699 h -2.517676 v -9.31416 h -6.858496 v 9.31416 h -2.517676 z" id="text1" style="font-size:25.4px;font-family:'MesloLGS NF';-inkscape-font-specification:'MesloLGS NF';fill:#4c4f69;stroke-width:0.264583" aria-label="NH"></path>
+  </g></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1056)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(24.433312937334488,0,0,24.433312937334488,150,273.7878249499728)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 28.64941 18.516701" id="svg1" xmlns:svg="http://www.w3.org/2000/svg" width="28.64941" height="18.516701"><defs id="defs1"><clipPath id="SvgjsClipPath1056"><rect width="1000" height="1000" x="0" y="0" rx="150" ry="150"></rect></clipPath></defs><g id="layer1" transform="translate(-21.787116,-17.522154)">
+    <path d="m 21.787116,17.584165 h 3.423047 l 7.242969,15.192871 V 17.584165 h 2.666504 V 36.038853 H 31.696589 L 24.45362,20.845982 v 15.192871 h -2.666504 z m 16.755566,-0.06201 h 2.517676 v 7.09414 h 6.858496 v -7.09414 h 2.517676 v 18.516699 h -2.517676 v -9.31416 h -6.858496 v 9.31416 h -2.517676 z" id="text1" style="font-size:25.4px;font-family:'MesloLGS NF';-inkscape-font-specification:'MesloLGS NF';fill:#4c4f69;stroke-width:0.264583" aria-label="NH"></path>
+  </g></svg></g></g></svg></g></svg>
