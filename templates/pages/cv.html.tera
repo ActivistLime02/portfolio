@@ -9,7 +9,7 @@
             {{ heading_macro::heading1(content="Nick Hesemans") }}
             {{ content_macro::paragraph(content="
             Ik ben een student bij Thomas More en ik studeer een bachelor in Toegepaste Informatica. Bij voorkeur werk ik graag met Linux op mijn computers.
-            Voor mij is het belangrijk om programma's te gebruiken met vim motions. Daarom heb ik voorkeur voor Neovim als mijn IDE.
+            Voor mij is het belangrijk om programma's te gebruiken met vim motions. Daarom heb ik een voorkeur voor Neovim als mijn IDE.
             ") }}
 
             {{ heading_macro::heading2(content="Opleiding") }}
@@ -18,14 +18,14 @@
             ") }}
             {{ content_macro::paragraph(content="
             Voor een project heb ik samen met een team een web applicatie gebouwd met de TALL stack (Tailwind CSS, Alpine.js, Laravel en Livewire).
-            In combinatie met Agile werken hebben we dit volbracht in sprints binnen een semester.
+            In combinatie met Agile hebben we dit volbracht in sprints binnen een semester.
             ") }}
             {{ heading_macro::heading3(content="
             Graduaat Systeem- en Netwerkbeheer | 2022-2024 | Thomas More Geel
             ") }}
             {{ content_macro::paragraph(content="
             Ik heb een basis gekregen in het beheren van Windows en Linux systemen. Het bouwen van een bedrijfsnetwerk is ook een vaardigheid dat ik heb geleerd.
-            Tijdens werkplekleren heb ik gewerkt met Chef cookbooks en Linux servers en hypervisors onderhouden.
+            Tijdens werkplekleren heb ik gewerkt met Chef cookbooks, Linux servers en hypervisors.
             ") }}
 
             {{ heading_macro::heading2(content="Ervaring") }}
@@ -53,7 +53,7 @@
             ") }}
             {{ content_macro::paragraph(content="
             Voor het vak project voor het werkveld heb ik de opdracht gekregen om een klein netwerk te bouwen in een groep van vijf personen.
-            We werkten hier vijf dagen aan en hebben de kans gehad om alles wat we geleerd hebben te implementeren.
+            We werkten hier vijf dagen aan en hebben de kans gehad om alles wat we geleerd te implementeren.
             De taken was onder anderen routers en switches, Active Directory, DNS en DHCP configureren. Hiervan ook alles documenteren.
             ") }}
         </section>
