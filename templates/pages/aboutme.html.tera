@@ -71,5 +71,16 @@
             Deze website is geschreven met Rocket, die geeft templates terug gemaakt in Tera.
         ") }}
     </section>
+    <section>
+        {{ heading_macro::heading2(content="Professionele ambities") }}
+        {{ content_macro::paragraph(content="
+            Van verschillende rollen dat ik heb gehad in projecten op school, is backend het leukste code om te schrijven.
+            Bij het schrijven van een backend weet je wat een API zal ontvangen en wat die zal teruggeven. Ik moet zorgen dat ik mijn code overeenkomt met de verwachte input en output.
+            Zoals je waarschijnlijk hebt gezien om deze website, is design niet mijn sterkste punt.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Wat ik ook tracht te doen is om nieuwe kennis op te doen. Momenteel is dat leren van Rust in mijn vrije tijd.
+        ") }}
+    </section>
 </article>
 {% endblock content %}
