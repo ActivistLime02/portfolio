@@ -12,3 +12,15 @@
     {{ content }}
 </a>
 {% endmacro navigation_button %}
+
+{# don't give file extension when using path #}
+{% macro image_with_caption(path, caption, image_class="max-w-full", figure_class="") %}
+<figure class="table {{ figure_class }}">
+    <picture>
+        <source srcset="/public/images/{{ path }}.jxl" type="image/jxl">
+        <source srcset="/public/images/{{ path }}.webp" type="image/webp">
+        <img  class="{{ image_class }} block max-h-[50vh]" src="/public/images/{{ path }}.jpg" alt="{{ caption }}">
+    </picture>
+    <figcaption class="italic table-caption caption-bottom">{{ caption }}</figcaption>
+</figure>
+{% endmacro image_with_caption %}

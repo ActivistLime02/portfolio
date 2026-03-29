@@ -7,13 +7,18 @@
     {{ heading_macro::heading1(content="Over mij") }}
     <section>
         {{ heading_macro::heading2(content="Introductie") }}
-        <div>
-            {{ content_macro::paragraph(content="
+        <div class="@2xl:flex @2xl:gap-4 @2xl:justify-items-between">
+            <div class="@2xl:flex-1">
+                {{ content_macro::paragraph(content="
                 Mijn naam is Nick Hesemans, momenteel ben ik een student aan de hogeschool Thomas More in Geel.
                 Ik studeer Toegepaste Informatica nadat ik een graduaat heb behaald in Systeem- en Netwerkbeheer. Ik ben geboren in China en woon in België.
                 Mijn moedertaal is Nederlands, ik vind van mezelf dat ik goed Engels kan en spreek conversatie niveau Chinees. Voor Chinees kan ik maar beperkt lezen.
-            ") }}
-<!--            <img src="" alt="">-->
+                ") }}
+            </div>
+            {{ content_macro::image_with_caption(
+            path="me",
+            caption="Dit ben ik na 6 uren door de bergen wandelen."
+            ) }}
         </div>
     </section>
     <section>
