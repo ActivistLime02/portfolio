@@ -2,50 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="28.64941mm"
-   height="18.516701mm"
    viewBox="0 0 28.64941 18.516701"
    version="1.1"
    id="svg1"
-   sodipodi:docname="logo.svg"
-   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="4.8573922"
-     inkscape:cx="-9.2642303"
-     inkscape:cy="59.496946"
-     inkscape:window-width="2022"
-     inkscape:window-height="1195"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg1" />
   <defs
      id="defs1" />
   <g
      id="layer1"
      transform="translate(-21.787116,-17.522154)">
-    <text
-       xml:space="preserve"
-       style="font-size:25.4px;font-family:'MesloLGS NF';-inkscape-font-specification:'MesloLGS NF';writing-mode:lr-tb;direction:ltr;fill:#4c4f69;stroke-width:0.264583;fill-opacity:1"
-       x="21.551472"
-       y="36.038853"
-       id="text1"><tspan
-         id="tspan1"
-         style="fill:#4c4f69;fill-opacity:1;stroke-width:0.264583"
-         x="21.551472"
-         y="36.038853">NH</tspan></text>
+    <path
+       d="m 21.787116,17.584165 h 3.423047 l 7.242969,15.192871 V 17.584165 h 2.666504 V 36.038853 H 31.696589 L 24.45362,20.845982 v 15.192871 h -2.666504 z m 16.755566,-0.06201 h 2.517676 v 7.09414 h 6.858496 v -7.09414 h 2.517676 v 18.516699 h -2.517676 v -9.31416 h -6.858496 v 9.31416 h -2.517676 z"
+       id="text1"
+       style="font-size:25.4px;font-family:'MesloLGS NF';-inkscape-font-specification:'MesloLGS NF';fill:#4c4f69;stroke-width:0.264583"
+       aria-label="NH" />
   </g>
 </svg>
