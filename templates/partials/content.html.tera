@@ -6,10 +6,11 @@
 
 {% macro navigation_button(path, content, new_tab=false) %}
 <a href="{{ path }}"
-   class="px-2 py-1 rounded-full
-   bg-ctp-lavender text-ctp-base
-   inline-block text-center
-"
+    class="
+        px-2 py-1 rounded-md
+        bg-ctp-lavender text-ctp-base
+        inline-block text-center
+    "
    {% if new_tab %} target="_blank" rel="noreferrer"{% endif %}
 >
     {{ content }}
