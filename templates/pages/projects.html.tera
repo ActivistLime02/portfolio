@@ -51,5 +51,128 @@
         {{ content_macro::navigation_button(path="https://ev-calculator.nickhesemans.be/", content="Naar live website", new_tab=true) }}
         {{ content_macro::navigation_button(path="https://github.com/ActivistLime02/ev_calculator", content="Naar broncode", new_tab=true) }}
     </section>
+    <section>
+        {{ heading_macro::heading2(content="Python script") }}
+        {{ heading_macro::heading3(content="Probleem stelling") }}
+        {{ content_macro::paragraph(content="
+            Ik verzamel afbeeldingen voor mijn achtergrond collectie. In het begin downloadde ik dat manueel en verzamelde ik dat in een map.
+            Als ik tijd had, deed ik Krita open en bewerkte ik de afbeelding zodat het past binnen mijn scherm.
+            Dit was veel werk.
+            Voor bestandsbeheer gebruikte ik Hydrus Network. Het is een programma waar je bestanden kan opvragen op basis van tags.
+            Voor afbeeldingen downloaden heb ik scrapers gevonden die dat voor mij deed.
+            Dan heb ik het laatste probleem: wie gaat die afbeeldingen bewerken?
+        ") }}
+        {{ content_macro::paragraph(content="
+            In mijn graduaat studies heb ik python scripting als les gehad. Dit is mijn eerste intro tot programmeren.
+            Toen wist ik dat dit mijn oplossing zal zijn voor het schrijven van een automatische image-editor.
+        ") }}
+        {{ heading_macro::heading3(content="Oplossing") }}
+        {{ content_macro::paragraph(content="
+            Met wat primitieve python scripting heb ik met behulp van een paar dependencies een automatische image-editor gemaakt.
+            Het belangrijkste voor mij is dat ik een resolutie kan meegeven en de bestanden krijg in dat aspect ratio.
+            Zo kan ik achtergronden maken voor verschillende apparaten.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Als mens kan je heel traag één afbeelding bewerken. Python is single-threaded en zal dus sneller één afbeelding bewerken.
+            Om het script nog sneller te maken heb ik sommige delen multi-threaded gemaakt. Zo kan deze script alle CPU-cores gebruiken van de processor.
+            Als je 10000 afbeeldingen wil bewerken is het handig als het wat sneller gaat.
+        ") }}
+        {{ heading_macro::heading3(content="Wat ik heb bijgeleerd") }}
+        {{ content_macro::paragraph(content="
+            Hier heb ik scripting geleerd, werken met meerdere threads en afbeeldingen manipuleren.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Door te kunnen programmeren kan ik zelf problemen oplossen. Hier begon mijn interesse voor programmeren.
+        ") }}
+        {{ content_macro::navigation_button(path="https://github.com/ActivistLime02/portrait-to-landscape", content="Naar broncode", new_tab=true) }}
+    </section>
+    <section>
+        {{ heading_macro::heading2(content="School project: Skill integration lab 2 - Semester 1") }}
+        {{ heading_macro::heading3(content="Probleem stelling") }}
+        {{ content_macro::paragraph(content="
+            Dit is een project waar ik in groep de functionaliteit van een klant in kaart breng.
+            We maken onderandere een use case diagram, data model, business case en figma prototypes.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Ons kreeg de opdracht om een applicatie te maken voor een hobbyist patteserie bakker.
+            Ze krijgt nu te veel aanvragen en heeft te veer recepten om dat manueel bij te houden in een excel.
+            Ze will onder andere graag een programma dat recepten bijhoudt, de historische prijzen van ingredienten bijhoudt, klanten een aanvraag kunnen indienen via een website,
+            bestellingen beheren en zo verder.
+        ") }}
+        {{ content_macro::paragraph(content="
+            In een ander vak leren we op voorhand de technieken die we toepassen voor dit project.
+            Bijvoorbeeld functionele eisen opstellen en uitwerken tot een use case diagram.
+        ") }}
+        {{ heading_macro::heading3(content="Oplossing") }}
+        {{ content_macro::paragraph(content="
+            Om de twee weken heb ik samen met mijn groep een vergadering met de klant. Hierbij bespreken wat we hebben uitgewerkt en vragen we voor feedback aan de klant.
+            Dit kan gaan over een bepaalde flow of UI aanpassing in de figma.
+            Op deze manier konden we stap voor stap de functionaliteit uitbreiden en verfijnen. Zo is het mogelijk om potentiele grote veranderenigen op een vroege stadium op te vangen.
+            Zo hoeven we minder veranderenigen te maken op delen zoals de data model.
+        ") }}
+        {{ heading_macro::heading3(content="Wat ik heb bijgeleerd") }}
+        {{ content_macro::paragraph(content="
+            In deze project heb ik geleerd wat de stappen zijn in het oplossen van een groot probleem.
+            Het is belangrijk om de features op te noemen en deze in kaart brengen.
+            Vervolgens deze features verwerken in een prototype. Met deze methode kunnen we al zien wat de flow is van de applicatie.
+            Meestal worden er nog schermen vervangen of van volgerde veranderd. Dit kunnen we doen zonder één regel code te schrijven.
+            Het zou namelijk pijnlijk zijn om een scherm volledig te maken om vervolgens radicaal te veranderen.
+        ") }}
+    </section>
+    <section>
+        {{ heading_macro::heading2(content="School project: Skill integration lab 2 - Semester 2") }}
+        {{ heading_macro::heading3(content="Probleem stelling") }}
+        {{ content_macro::paragraph(content="
+            Dit semester ga ik samen met een nieuwe groep een project uitbouwen van de vorige semester.
+            Vorige semester zijn er namelijk zes verschillende projecten in totaal. Elk project werkte twee of drie verschillende groepen eraan.
+            Dit semester kregen we een ander project voorgeschoteld dan dat we vorig semester aan hebben gewerkt.
+            Het is aan ons om de beste elementen uit de drie groepen te halen.
+            Dit project zullen we dus uitbouwen met behulp van de TALL-stack: tailwindcss, Alpine.js, Laravel en Livewire.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Voor deze opdracht zullen we een webapplicatie uitbouwen waarbij de klant een voetbal team kan beheren.
+            Een van de belangrijkste functionaliteit zijn onder andere wedstrijden beheren, trainingen beheren, aankoop van kledij beheren en carpools organiseren.
+        ") }}
+        {{ heading_macro::heading3(content="Oplossing") }}
+        {{ content_macro::paragraph(content="
+            In het project heb ik voornamelijk gewerkt rond de carpool aspect.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Een gebruiker kan een carpool organiseren. Hij kan aangeven waar hij vertrekt en hoe laat. Vervolgens kan hij kiezen naar welke wedstrijd of training hij gaat.
+            Als laatste kan de gebruiker aanduiden hoeveel mensen hij kan meenemen.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Een ander gebruiker kan vervolgens inschrijven bij een carpool. Die kan filteren naar welke training of wedstrijd hij wil gaan.
+            Eenmaal de gebruiker een carpool heeft gekozen, kan hij kiezen hoeveel mensen er meegaan.
+        ") }}
+        {{ content_macro::paragraph(content="
+            De organisator van de carpool kan dan deze persoon accepteren of weigeren. Het accepteren dient vooral als bevestiging voor de meerijder dat de organisator zijn aanvraag heeft gezien.
+            Het weigeren dient om te laten weten dat er iemand al is ingeschreven zonder dat te doen via de website. De organisator moet een reden geven, zodat de meerijder weet waarom dat die niet mag meerijden.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Verder heb ik veel tijd gestoken in het nakijken van pull requests. Samen met twee andere teamgenoten hebben we dit gedaan. Een team bestaat uit zes personen.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Als eindresultaat hebben we ons project voltooid in vier sprints. Na elke sprint hebben we een sprint demo gegeven aan de klant. Hier hebben we feedback verzamelt en verwerkt voor de volgende sprint.
+        ") }}
+        {{ heading_macro::heading3(content="Wat ik heb bijgeleerd") }}
+        {{ content_macro::paragraph(content="
+            Communicatie is essentieel in een team project. We hebben bij de sprint retrospectives altijd aanpassingen gemaakt voor de volgende sprint.
+            Eén van de aanpassingen dat het grootste verschil maakte was een dedicated pull request reviewer.
+            We hadden het probleem dat er een taak werd afgemaakt, een pull request werd aangemaakt en meteen aan een nieuwe taak zijn begonnen.
+            We hadden toen niemand aangeduid als pull request reviewer.
+            In het begin deed ik dat tussen de taken even en een teamgenoot David hielp hier en daar ook mee. Het grootste probleem was dat er lang niet werd gereageerd op request for changes.
+            Dit zorgde ervoor dat is de eerste twee sprints er meer dan 10 pull requests open stond tegen het einde.
+            Vanaf dan hadden we als team afgesproken om iemand aan te stellen als een persoon dat reviews deed. De rest van het team had dan ook de verantwoordelijkheid om zo snel mogelijk aanpassingen te maken.
+            Ik zag dat in de helft van de derde sprint David niet kon bijhouden, samen met een teamgenoot Kayn hebben we meegeholpen met de reviews.
+        ") }}
+        {{ content_macro::paragraph(content="
+            Samenwerken aan een codebase is soort van samen wonen met iemand. Iedereen heeft andere gewoontes, het is grappig om naar de code te kijken en proberen te gokken wie het heeft geschreven.
+            Als eerste voorbeeld neem ik wit regels tussen code. Sommige laten graag veel ruimte tussen code blokken. Terwijl ik één wit regel tussen ongerelateerde code laat.
+            Als tweede voorbeeld neem ik aantal commits. Wat ik bedoel, is dat sommigen code schrijven en één gigantosaurus van een commit pushen voor merge. Als reviewer maakt het een beetje moeilijker om te zien welke code relevant zijn met elkaar.
+            Terwijl ik graag kleine commits zo klein mogelijk hou. Ik heb een regel voor mezelf gemaakt. Als ik een commit kan cherry picken zonder extra's die ik niet nodig heb, dan is het een goede commit.
+            Dit is wat ik bedoel met samenwonen met iemand. Je leert de gewoontes van andere mensen kennen door middel van de code dat ze schrijven.
+        ") }}
+    </section>
 </article>
 {% endblock content %}
