@@ -170,7 +170,7 @@
             Samenwerken aan een codebase is soort van samen wonen met iemand. Iedereen heeft andere gewoontes, het is grappig om naar de code te kijken en proberen te gokken wie het heeft geschreven.
             Als eerste voorbeeld neem ik wit regels tussen code. Sommige laten graag veel ruimte tussen code blokken. Terwijl ik één wit regel tussen ongerelateerde code laat.
             Als tweede voorbeeld neem ik aantal commits. Wat ik bedoel, is dat sommigen code schrijven en één gigantosaurus van een commit pushen voor merge. Als reviewer maakt het een beetje moeilijker om te zien welke code relevant zijn met elkaar.
-            Terwijl ik graag kleine commits zo klein mogelijk hou. Ik heb een regel voor mezelf gemaakt. Als ik een commit kan cherry picken zonder extra's die ik niet nodig heb, dan is het een goede commit.
+            Terwijl ik graag commits zo klein mogelijk hou. Ik heb een regel voor mezelf gemaakt. Als ik een commit kan cherry picken zonder extra's die ik niet nodig heb, dan is het een goede commit.
             Dit is wat ik bedoel met samenwonen met iemand. Je leert de gewoontes van andere mensen kennen door middel van de code dat ze schrijven.
         ") }}
     </section>
