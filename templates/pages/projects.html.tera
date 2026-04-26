@@ -1,10 +1,55 @@
 {% extends "base" %}
 {% import "partials/heading" as heading_macro %}
+{% import "partials/content" as content_macro %}
 
 {% block content %}
-<article>
+<article class="@container">
+    {{ heading_macro::heading1(content="Projecten") }}
     <section>
-    <p>test<p>
+        {{ heading_macro::heading2(content="SPA in Rust") }}
+        {{ heading_macro::heading3(content="Probleem stelling") }}
+        {{ content_macro::paragraph(content="
+            Ik rij met een plug-in hybride auto. Deze auto heeft een netto batterij capaciteit van 19,53 kWh.
+            Vervolgens heb ik thuis een dynamisch energie contract. Dit betekent dat mijn elektriciteit prijs elke 15 minuten verandert.
+            Het voordeel is dat ik de markt prijs heb. Wanneer ik thuis kom haal ik de rekenmachine tevoorschijn en tel ik uit hoe lang ik moet laden.
+            Als laatste kijk ik naar de elektriciteit prijs tussen nu en de volgende keer dat ik de auto terug nodig heb.
+            Dan stel ik de laadpaal in op het moment dat het goedkoopst is.
+        ")}}
+        {{ content_macro::paragraph(content="
+            Het probleem is dat ik steeds hetzelfde berekening doe. Het zou handig zijn als ik enkele velden kan invullen en een resultaat krijg.
+            Daarom heb ik besloten om deze probleem aan te pakken.
+        ")}}
+        {{ heading_macro::heading3(content="Oplossing") }}
+        {{ content_macro::paragraph(content="
+            Om een beetje uitdaging toe te voegen aan mijn project wil ik graag een single page applicatie maken.
+            Op school heb ik beetje leren werken met React. Wat ik leuk vond aan React is het werken met componenten en het Routing gebeuren.
+            Ik kan me goed voorstellen dat mensen dit geweldig vinden.
+            Voor mij zijn er ook minpunten. Ik ben niet zo een grote fan van de JavaScript syntax.
+            In mijn vrije tijd probeer ik wat te leren rond Rust. Om iets te kunnen leren moet je het ook doen.
+            Daarom zal ik op één of ander manier een SPA schrijven in Rust.
+        ") }}
+        {{ content_macro::paragraph(content="
+            In mijn opzoek werk heb ik meerdere frameworks tegengekomen. Bijvoorbeeld Yew, Leptos, egui, Iced en Dioxus.
+            Na wat vergelijken ben ik op twee keuzes belandt, Yew en Dioxus.
+            Uiteindelijk heb ik beslist voor Dioxus. Voor mij is het voordeel dat ik de bouwstenen van React kan hergebruiken.
+            Bijkomend is er een handig programma genaamd dioxus-cli. Dit programma kan de frontend in realtime aanpassen als ik aanpassingen maak in de code.
+            Nog een voordeel is dat tailwindcss is ingebouwd.
+        ") }}
+        {{ heading_macro::heading3(content="Wat ik heb bijgeleerd") }}
+        {{ content_macro::paragraph(content="
+            De dioxus documentatie is relatief goed geschreven. Dit is het voornaamste bron van informatie. Het neveneffect van Rust gebruiken is dat de compiler vaak zegt waar ik fouten heb gemaakt.
+            Voor problemen dat ik niet kan oplossen heb ik het internet gebruikt.
+            Het nadeel aan dioxus is dat het niet zo populair is in vergelijking met React. Informatie op het internet is beperkt, out dated of kopieën van elkaar.
+            Hierdoor heb ik moeten terugvallen op AI. In dit geval is het handig, want ik heb kleine problemen opgelost zodat ik verder kan met andere dingen.
+        ")}}
+        {{ content_macro::paragraph(content="
+            Zonder veel bij na te denken heb ik een website gemaakt in WebAssembly. Van wat ik heb begrepen is WebAssembly een taal is die je niet zelf schrijft.
+            In plaats daarvan gebruiken we een andere taal, in dit geval Rust. Die compileert het naar een formaat dat wasm heet.
+            Dit heeft als neveneffect dat de nginx configuratie heel simpel is. Je hebt een index pagina met een script dat de wasm bestand uitvoert.
+            Als resultaat krijg je een website dat ik heb geschreven.
+        ") }}
+        {{ content_macro::navigation_button(path="https://ev-calculator.nickhesemans.be/", content="Naar live website", new_tab=true) }}
+        {{ content_macro::navigation_button(path="https://github.com/ActivistLime02/ev_calculator", content="Naar broncode", new_tab=true) }}
     </section>
 </article>
 {% endblock content %}
