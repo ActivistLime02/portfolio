@@ -25,6 +25,9 @@
             {% if navbar_active_state == "index" %} bg-ctp-surface1 {% endif %}"
                 href="/">Hoofdpagina</a></li>
             <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
+            {% if navbar_active_state == "projects" %} bg-ctp-surface1 {% endif %}"
+                href="/projects">Projecten</a></li>
+            <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle
             {% if navbar_active_state == "aboutme" %} bg-ctp-surface1 {% endif %}"
                 href="/aboutme">Over mij</a></li>
             <li class=""><a class="w-full sm:w-auto inline-block p-4 hover:text-ctp-rosewater hover:bg-ctp-mantle

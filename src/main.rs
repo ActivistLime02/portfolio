@@ -12,6 +12,15 @@ async fn index() -> Template {
     Template::render("pages/index", &context)
 }
 
+#[get("/projects")]
+async fn projects() -> Template {
+    let context = context! {
+        title: "Projecten",
+        navbar_active_state: "projects"
+    };
+    Template::render("pages/projects", &context)
+}
+
 #[get("/aboutme")]
 async fn aboutme() -> Template {
     let context = context! {
@@ -35,6 +44,7 @@ fn rocket() -> _ {
     rocket::build()
         .mount("/", routes![
             index,
+            projects,
             aboutme,
             cv
         ])

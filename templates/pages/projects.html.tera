@@ -1,0 +1,10 @@
+{% extends "base" %}
+{% import "partials/heading" as heading_macro %}
+
+{% block content %}
+<article>
+    <section>
+    <p>test<p>
+    </section>
+</article>
+{% endblock content %}
