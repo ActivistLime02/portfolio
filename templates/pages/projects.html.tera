@@ -10,7 +10,7 @@
         {{ heading_macro::heading3(content="Probleem stelling") }}
         {{ content_macro::paragraph(content="
             Ik rij met een plug-in hybride auto. Deze auto heeft een netto batterij capaciteit van 19,53 kWh.
-            Vervolgens heb ik thuis een dynamisch energie contract. Dit betekent dat mijn elektriciteit prijs elke 15 minuten verandert.
+            Vervolgens heb ik thuis een dynamisch energiecontract. Dit betekent dat mijn elektriciteit prijs elke 15 minuten verandert.
             Het voordeel is dat ik de markt prijs heb. Wanneer ik thuis kom haal ik de rekenmachine tevoorschijn en tel ik uit hoe lang ik moet laden.
             Als laatste kijk ik naar de elektriciteit prijs tussen nu en de volgende keer dat ik de auto terug nodig heb.
             Dan stel ik de laadpaal in op het moment dat het goedkoopst is.
