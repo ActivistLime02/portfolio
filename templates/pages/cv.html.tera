@@ -94,7 +94,7 @@
                 C#: .NET Core met Entity Framework API
             ") }}
             <p class="my-1">
-                <span class="text-ctp-red">Rust</span>: Rocket API (mijn portfolio gebruikt dit)
+                <span class="text-ctp-red">Rust</span>: Rocket API (mijn portfolio gebruikt dit), frontend in Dioxus
             </p>
             <p class="italic border-l-2 pl-2 border-ctp-lavender">Talen in het <span class="text-ctp-red">rood</span> doe ik graag.</p>
 
